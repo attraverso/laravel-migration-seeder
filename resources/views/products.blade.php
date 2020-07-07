@@ -7,6 +7,20 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <table>
+    <tr>
+      <th>code</th>
+      <th>type</th>
+      <th>year</th>
+    </tr>
+    @foreach ($products_swing as $product)
+    <tr>
+      <td>{{$product->code}}</td>
+      <td>{{$product->type}}</td>
+      <td>{{$product->year}}</td>
+    </tr>
+    @endforeach
+    
+  </table>
 </body>
 </html>

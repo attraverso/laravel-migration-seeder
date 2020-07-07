@@ -18,6 +18,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', 'ProductsController@index');
+// Route::get('/', 'ProductsController@index');
 
-// Route::get('/products', 'ProductsController@index');
+Route::get('/prodotti', 'ProductsController@index');
